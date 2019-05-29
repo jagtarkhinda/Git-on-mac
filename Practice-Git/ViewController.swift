@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBAction func Button(_ sender: Any) {
         print("Hello");
+        print("Hello2");
     }
     
     @IBOutlet weak var text: UITextField!
