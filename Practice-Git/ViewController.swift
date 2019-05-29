@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func Button(_ sender: Any) {
+        print("Hello");
+    }
+    
+    @IBOutlet weak var text: UITextField!
+    
+    
+    @IBAction func Slider(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
